@@ -40,3 +40,4 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: dockerizednodejs
             location: ${{ secrets.LOCATION }}
+            ports: 8080
